@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>sign-up page</h1>
+    <form action="">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="type your name" name="name" required minlength="3" maxlength="20"> <br>
+
+        <label for="lname">Last Name</label>
+        <input type="text" name="last_name" id="lname" placeholder="your last name" required minlength="3" max="20"> <br>
+
+        <label for="e-mail">e-mail</label>
+        <input type="email" id="e-mail" placeholder="enteryour@e-mail.com"> <br>
+
+        <label for="pas">password</label>
+        <input type="password" placeholder="************" id="pas"> 
+
+        <label for="cpass">Comfirm password</label>
+        <input type="password" placeholder="************" id="cpas" > <br>
+
+        <label for="age">age</label>
+        <input type="number" placeholder="100" id="age" required min="1" max="150"> <br>
+
+        <h3>Gender</h3>
+        <label for="male">male</label>
+        <input type="radio" name="Gender" value="male" id="male">
+
+        <label for="female">female</label>
+        <input type="radio" name="Gender" value="female" id="female">
+
+        <label for="other">other</label>
+        <input type="radio" name="Gender" value="other" id="other"> <br>
+
+        <label for="agree">agree</label>
+        <input type="checkbox" name="agree" id="agree">I agree to terms and conditions <br>
+
+        <button type="submit">Register</button>
+    </form>
+
+
+
+    <h1>sign-in page</h1>
+    <form action="">
+        <label for="e-mail">e-mail</label>
+        <input type="email" name="e-mail" id="e-mail" placeholder="123@gmail.com"> <br>
+
+        <label for="pas">password</label>
+        <input type="password" name="password" id="pas" placeholder="*******"> <br>
+
+
+        <label for="cpas"> Comform password</label>
+        <input type="password" name="cpassword" id="cpas" placeholder="********">
+
+    </form>
+</body>
+</html>
